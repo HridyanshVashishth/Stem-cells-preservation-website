@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- School Logo and Name -->
+    <div class="school-header" style="text-align: center; padding: 20px 0;">
+        <!-- Logo at the top -->
+        <img src="images/school-logo.png" alt="School Logo" class="school-logo" style="width: 120px; height: 120px; margin-bottom: 10px;">
+        
+        <!-- School Name -->
+        <h5>Shri Gulab Rai Montessori Sr. Sec. School, Bareilly</h5>
+    </div>
+    <div class="login-container">
+        <!-- Image Section (Left Side) -->
+        <div class="image-section">
+            <img src="images/login.jpg" alt="Umbilical Cord">
+        </div>
+
+        <!-- Login Form Section (Right Side) -->
+        <div class="login-form">
+            <h2>Welcome Back!</h2>
+            <p>Discover fascinating insights about umbilical cord preservation and its impact on regenerative medicine. Log in to uncover more!</p>
+            <form action="homepage.html" method="post">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+
+                <!-- Links for Forgot Password and Register -->
+                <div class="links">
+                    <a href="forgot_password.html">Forgot Password?</a> |
+                    <a href="registration_page.html">Don't have an account? Register</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

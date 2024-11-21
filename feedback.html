@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <!-- Container for Feedback Form -->
+    <div class="feedback-container">
+        
+        <!-- School Logo and Name -->
+        <div class="school-header" style="text-align: center; padding: 20px 0;">
+            <!-- Logo at the top -->
+            <img src="images/school-logo.png" alt="School Logo" class="school-logo" style="width: 120px; height: 120px; margin-bottom: 10px;">
+            
+            <!-- School Name -->
+            <h2>Shri Gulab Rai Montessori Sr. Sec. School, Bareilly</h2>
+        </div>
+
+        <!-- Feedback Form Content -->
+        <h3 style="text-align: center;">We Value Your Feedback</h3>
+        <p style="text-align: center;">Your feedback is crucial for us to improve. Please fill out the form below to share your thoughts with us.</p>
+
+        <form action="thankyou.html" method="post" style="width: 50%; margin: 0 auto;">
+            <label for="name" style="display: block; margin-bottom: 8px;">Name</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; margin-bottom: 16px;">
+
+            <label for="email" style="display: block; margin-bottom: 8px;">Email</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 16px;">
+
+            <label for="feedback" style="display: block; margin-bottom: 8px;">Feedback</label>
+            <textarea id="feedback" name="feedback" rows="5" required style="width: 100%; padding: 8px; margin-bottom: 16px;"></textarea>
+
+            <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; width: 100%;">Submit Feedback</button>
+        </form>
+
+        <!-- Contact Information -->
+        <div class="contact-info" style="margin-top: 40px; text-align: center;">
+            <p>For further assistance, contact us at:</p>
+            <p>Email: preserveyourumbilicalcord@gmail.com</p>
+            <p>Phone: 75050 82998</p>
+            <p>Address: 9CG8+PV4, Nainital Rd, Shrinathpuram, Bareilly, Uttar Pradesh 243003</p>
+        </div>
+    </div>
+</body>
+</html>

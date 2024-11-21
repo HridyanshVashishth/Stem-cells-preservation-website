@@ -1,0 +1,53 @@
+/* Thank You Page Styling */
+body {
+    font-family: 'Garamond', serif;
+    background-color: #f8e5d1; /* Peach background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.thank-you-container {
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.school-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.school-header h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.thank-you-message h3 {
+    font-size: 28px;
+    color: #ff7f50; /* Orange color */
+    margin-bottom: 10px;
+}
+
+.thank-you-message p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.creator-info p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 30px;
+    font-style: italic;
+}

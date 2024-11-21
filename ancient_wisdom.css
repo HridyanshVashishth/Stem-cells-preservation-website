@@ -1,0 +1,121 @@
+/* General Body Styles */
+body {
+    font-family: 'Garamond', serif;
+    background-color: #f8e5d1; /* Background color for the page */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for Content */
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main Content Container */
+.container {
+    background-color: white; /* White background for content */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 1200px;
+    width: 80%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Style */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Introductory Text */
+.intro-text {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.content-box{
+    background-color: #fff;
+    border: 2px solid #FF6347;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Section Style */
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px 0;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 5px solid #FF6347; /* Colorful border */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom-in effect */
+}
+
+/* Zoom effect for image */
+.image-section img:hover {
+    transform: scale(1.1);
+    border-color: #ff4500;
+}
+
+/* Body Text Style */
+.body-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Button Container */
+.button-container, .button-container1 {
+    text-align: center;
+}
+.button-container button {
+    background-color: #f5a623;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+.button-container1 button {
+    background-color: #f5a623;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Hover Effect */
+.button-container button:hover, .button-container1 button:hover {
+    background-color: #e5941f;
+}
+
+/* Bottom Right Button Position */
+.button-container1 button {
+    position: fixed;
+    bottom: 10px;  /* Distance from the bottom */
+    right: 10px;   /* Distance from the right */
+}

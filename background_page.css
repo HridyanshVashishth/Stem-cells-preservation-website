@@ -1,0 +1,91 @@
+/* Background color */
+body {
+    background-color: #f8e5d1;
+    font-family: Garamond, serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centered white content container */
+.background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.content-container {
+    background-color: white;
+    padding: 40px; /* Increase padding if needed */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px; /* Increase max-width to make the container wider */
+    width: 90%; /* Optionally set a percentage width for responsiveness */
+}
+
+
+/* Image styling with zoom and border */
+.image {
+    width: 100%;
+    max-width: 300px;
+    border: 3px solid #f58220; /* Colorful border */
+    border-radius: 5px;
+    transition: transform 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.image:hover {
+    transform: scale(1.1); /* Zoom effect */
+}
+
+/* Button styling */
+.know-more-btn {
+    background-color: #f58220;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.know-more-btn:hover {
+    background-color: #d06b1d;
+}
+/* Content box styling */
+.content-box {
+    border: 2px solid #f58220; /* Border color matching the theme */
+    padding: 15px;
+    margin: 15px 0; /* Spacing between boxes */
+    border-radius: 5px; /* Rounded corners */
+    text-align: left; /* Align text to left for readability */
+}
+/* Centered white content container with scrolling */
+.background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden; /* Ensures the image does not overflow outside the viewport */
+}
+
+.content-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+    max-height: 90vh; /* Limits the height */
+    overflow-y: auto; /* Enables vertical scrolling within the container */
+}

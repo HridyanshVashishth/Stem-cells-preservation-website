@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Garamond, serif;
+    background-color: #f8e5d1; /* Peach background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for Feedback Form */
+.feedback-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* School Header */
+.school-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.school-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.school-header h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+/* Form Styles */
+.feedback-container h3 {
+    font-size: 1.6em;
+    color: #333;
+}
+
+.feedback-container p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    background-color: #d4a373; /* Button color */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"]:hover {
+    background-color: #b4865d;
+}
+
+/* Contact Information */
+.contact-info {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+.feedback-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    min-height: 100vh; /* Ensures it takes up at least the full height of the viewport */
+    max-height: 100vh; /* Optional: To limit the container's height */
+    overflow-y: auto; /* Enables vertical scrolling */
+}

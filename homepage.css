@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+    background-color: #f8e5d1; /* Beige background */
+    font-family: 'Garamond', serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the Homepage */
+.homepage-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Section with Zoom Effect */
+.image-section img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    border: 5px solid #f5a623; /* Colorful border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover Effect on Image */
+.image-section img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Content Section */
+.content-section {
+    width: 50%;
+    padding-left: 2rem;
+}
+
+.content-section h1 {
+    font-size: 36px;
+    color: #4CAF50; /* Green color for the heading */
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.content-section button {
+    padding: 12px 25px;
+    background-color: #f5a623; /* Warm yellow-orange color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.content-section button:hover {
+    background-color: #e5941f; /* Darker shade on hover */
+}

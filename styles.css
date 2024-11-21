@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5dc; /* Beige theme */
+}
+
+.login-container {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ece2d0; /* Light beige for contrast */
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 0 0 8px;
+}
+
+.login-form {
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.login-form h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-form p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.login-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8b5e3c; /* Earthy brown button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.login-form button:hover {
+    background-color: #6f4c2b;
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.links a {
+    color: #8b5e3c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #6f4c2b;
+}
+.image-section img {
+    width: 100%; /* Ensures image takes up full width of its container */
+    border: 5px solid orange; /* Initial border color */
+    border-radius: 10px; /* Rounded corners if desired */
+    transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth transitions for zoom and border color */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.image-section img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    border-color: #ff4500; /* Change to a different border color on hover */
+}
+
+/* School Header */
+.school-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.school-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.school-header h5 {
+    font-size: 1.8em;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
