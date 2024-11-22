@@ -51,3 +51,24 @@ body {
     margin-top: 30px;
     font-style: italic;
 }
+/* Instagram Link */
+.instagram-link {
+    margin-top: 20px;
+}
+
+.instagram-logo {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.instagram-logo:hover {
+    transform: scale(1.1);
+}
+
+.instagram-link p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
